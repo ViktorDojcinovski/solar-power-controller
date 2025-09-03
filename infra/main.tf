@@ -7,7 +7,7 @@ module "network" {
 
 module "ecr" {
   source  = "./modules/ecr"
-  name    = "demo-app"
+  name    = "power-controller-app"
   project = var.project
   env     = var.env
 }

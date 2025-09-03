@@ -4,7 +4,7 @@ variable "region" {
 }
 variable "project" {
   type    = string
-  default = "demo"
+  default = "power-controller-app"
 }
 variable "env" {
   type    = string
