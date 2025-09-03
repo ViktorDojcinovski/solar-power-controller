@@ -1,0 +1,17 @@
+cat > .gitignore <<'EOF'
+# --- Terraform (keep .terraform.lock.hcl tracked) ---
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# --- Node / misc ---
+node_modules/
+.DS_Store
